@@ -1,0 +1,27 @@
+# Lectura 2
+
+## Redes II
+
+## Francisco Villanueva Quirós - 2021043887
+
+### Preguntas
+
+1. Explique la diferencia entre una WAN y una MAN.
+
+- **MAN**: Las redes area metropolitana, pueden tener la capacidad de curbir una ciudad, cuando esta tiene un alcance menor a los 100km. Algunos ejemplos son la televisión por cable y la internet alta velocidades dentro de la ciudad. 
+- **WAN**: Una de las diferencias con la MAN, es que la WAN puede ocupar zonas geográficas mas amplias, como paises o continentes. Un ejemplo claro de una WAN, es el Internet. Esta conecta millones de personas y dispostivos mediante subredes. 
+
+2. Explique las diferencias entre una red orientada a conexión y una red no orientada a conexión. 
+
+- **Red orientada a conexión**: en este ripo de redes, se establece un solo camino para cada conexión. Este método hace que la transmición de datos se enviada ordenada y completa. Un proceso imporante en estas redes se conoce como "handshaking", donde el emisor y el receptor intercambian información de control antes de enviar los datos que se quieren enviar. Es hasta despues de este procedimiento, que se pueden establcer la conexión. 
+- **Red no orientada a conexión**: A diferencia, esta no posee el proceso de "handshaking". En este caso, los datos se envían sin establecer una conexión entre el receptor y el emisor. Esto genera que la transmición de datos sea mucho más rápida. Como parte del procesdimiento, los paquetes de información deben contener una dirección para que estos sean enrutados al destino. Sin embargo, este proceso es menos confiable, ya que, hay muchos caminos en al direción de la red, lo que peude producir pérdida de paquetes.  
+
+3. ¿Qué es una red punto a punto? Explique cómo implementarla de acuerdo con la lectura.
+
+- Las redes de punto a punto consisten en multiples conexiones entre pares de nodos individuales.  Estas para ir desde la fuente al destino, la información debe ir a través de multiples nodos host to host. Pueden exitir multiples rutas de diferentes longitudes, por lo que, se debe encotnrar la mas eficientes. Una de las caracteristicas es cuando una transmición de una fuente a un receptor se llama "unicasting". Esta posee ventajas como la gran escalabilidad, puede contener multiples subredes con máquinas mas pequeñas. 
+- Para la implementación de las redes punto a punto, se pueden utilizar dos enfoques mencionados en la lectura, conmutación de circuitos o de paquetes. En el enfoque de **conmutación de circuitos**, debe establecer un camino entre dos nodos antes de transmitir datos. Los recursos a lo largo del camino se reservan durante la sesión. Posteriormente, hay que seleccionar el método de multiplexación. En el FDM, el espectro del enlace es compartido por varias conexiones, el enlace asgina una frecuancia de banda a cada conexión, esto se conoce como ancho de banda. En el TDM, el tiempo es dividido en fragmentos de duración fija, cada fragmento es divido en un número fijo de campos de tiempo. Los sistemas solo pueden transmitir datos en los capos de tiempos asignados durante la conexión. Otro de los enofques es, **conmutación de paquetes**. En este enfoque, los mensajes se dividen en paquetes pequeños, estos deben pasar por enlaces de comunitación y switches entre la fuente y el destino. Los paquetes de diferentes fuentes pueden compartir recursos de red, por lo que, estos no son asignados de antemano. Para la implementación se requiere del uso de buffers, estos se encargan de almacenar los paquetes, utilizando el mode de almacenamiento y envió para transmitir data. Un router debe recibir todo el paquete antes de transmitirlo al siguiente enlace. Además, existen dos clases de packect switching, sin conexión o orientados a conexión. Los orientados a conexión, se establece un camino virtual, este consiste en una serie de enlaces y switches que se necesitan entre la fuente y el destino antes de la trasnmisción de datos. Todos los paquetes usan el mismo camino virtual utilizando numero de circuito virutal y tablas de traducción. La otra clase es cuando no tienen conexión, enta clase los paquetes de una sesión puede seguir diferentes caminos, cada paquete es transmitido de forma independiente y enrutado. Es importante que los paquetes contengan la dirección en el header, un switch se encarga de encaminar al paquete a la dirección que esta en el header. De esta forma se podrían lograr las implementaciones de conexiones punto a punto. 
+
+4. Explique los conceptos de FDM y TDM. 
+
+- **FDM (Frequency-Division Multiplexing)**: Es un modo de implementar la conmutación de circuitos, este es un enlace de comunicación donde el espectro de frecuencia de un enlace se comparte en multiples conexiones. El enlace asgina una banda de frecuencia a cada conexión durante toda la sesión, esta se le conoce como ancho de banda. 
+- **TDM (Time-Division Multiplexing)**: Es todo modo de implementar la conmutación de circuitos, donde el tiempo se divide en fragmentos de duración fija, cada fragmento es dividido en un numero fijo de espacios de tiempo. Se le dedica un fragmento de tiempo específico en cada espacio tiempo. Este fragmento no puede ser compartido con otras conexiones. Los sistemas finales de la conexión solo pueden transmitir datos durante el espacio de tiempo que se le fue asignado a dicha conexión. 

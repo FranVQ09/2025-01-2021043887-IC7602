@@ -1,4 +1,5 @@
-# Clase 3 
+# Semana 2
+# Clase martes 25 feb
 
 ### Modelo OSI
 
