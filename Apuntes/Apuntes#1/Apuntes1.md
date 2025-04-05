@@ -2,20 +2,22 @@
 # 14 de marzo 2025 - Semana 4
 # Francisco Villanueva Quirós - 2021043887
 
+
 ## La Capa Física
 ## Repaso
 - Hay armónicos que dan diseño a la señal
 
-## Deterioro de Trasmición
+## Deterioro de Transmisión
 - Atenuación:
     - Pérdida de energía
     - Depende de la frecuencia
-    - Madeios guiados decae de forma logarítmica con la distancia
-- Distorción por retardo: Armónicas viajas a diferentes velocidades
-- Limitación de ancho de banda: No todas las armonicas pasan por el sistema
+    - Medios guiados decae de forma logarítmica con la distancia
+- Distorsión por retardo: Armónicas viajas a diferentes velocidades
+- Limitación de ancho de banda: No todas las armónicas pasan por el sistema
 - Ruido: Interferencia electromagnética
 
-## Medios de transmición guiados
+## Medios de transmisión guiados
+![Medios de transmisión guiados](assets/Tipos%20de%20cables%20de%20red.jpg)
 ### Medios magnéticos
 - Dispositivo que permite guardad información
 - Almacenar datos en una cinta magnética o medios removibles
@@ -67,6 +69,7 @@ Los cloud providers no cobran envio de datos al cloud provider, se pueden mover 
 - Un pulso de luz es un bit
 
 ## Medios de transmisión Inalambrico
+![Medios de transmisión Inalambricos](assets/desktop_73c60567-3286-43e0-a06a-377fa2dbd329.jpg)
 ### Espectro Electromagnetico
 - Movimiento de electrones crea ondas electromagnéticas
 - Al conectar un circuito a una antena, las ondas se pueden difundir y un receptor puede capturarlas

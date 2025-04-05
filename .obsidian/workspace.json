@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "8503dfbe5f4fe21c",
+    "id": "37456f83038f7f9e",
     "type": "split",
     "children": [
       {
-        "id": "47add7c9d869524d",
+        "id": "00352e907b44dc61",
         "type": "tabs",
         "children": [
           {
-            "id": "f3faafee223fece0",
+            "id": "c91e7f738d1e05fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "NotasDeClase/Semana7/1Abril.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "1Abril"
             }
           }
         ]
@@ -23,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bc63fdef72eae93d",
+    "id": "da53f4472860ec25",
     "type": "split",
     "children": [
       {
-        "id": "844b176abfeb06c3",
+        "id": "190e1f49308c728b",
         "type": "tabs",
         "children": [
           {
-            "id": "08c8204703a5e517",
+            "id": "11d0a9ab4e7631f4",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +48,7 @@
             }
           },
           {
-            "id": "34d8f18961d97ed0",
+            "id": "7b2af5744c7e5924",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -57,17 +61,17 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Buscar"
             }
           },
           {
-            "id": "4f63a007af597f1c",
+            "id": "c655e46cad79fb85",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Marcadores"
             }
           }
         ]
@@ -77,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "d7b5cc33462119e0",
+    "id": "be693cb718bd4d00",
     "type": "split",
     "children": [
       {
-        "id": "a66fbaf26b4a9879",
+        "id": "f900f71e50d7136b",
         "type": "tabs",
         "children": [
           {
-            "id": "704dd6159f682839",
+            "id": "c390710035ebcf59",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lectura 4.md",
+                "file": "Apuntes/Apuntes#1/Apuntes1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Lectura 4"
+              "title": "Enlaces entrantes de Apuntes1"
             }
           },
           {
-            "id": "d6480a6f7b15327e",
+            "id": "7aa35c8aa6f0dd18",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lectura 4.md",
+                "file": "Apuntes/Apuntes#1/Apuntes1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Lectura 4"
+              "title": "Enlaces salientes de Apuntes1"
             }
           },
           {
-            "id": "2aeb227ae0c786f3",
+            "id": "394fc1f2d50d2e95",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,22 +133,22 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "7cbc3fb078afd76a",
+            "id": "5c35dc62a853eb80",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lectura 4.md",
+                "file": "Apuntes/Apuntes#1/Apuntes1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Lectura 4"
+              "title": "Esquema de Apuntes1"
             }
           }
         ]
@@ -164,12 +168,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "f3faafee223fece0",
+  "active": "c91e7f738d1e05fc",
   "lastOpenFiles": [
-    "Lectura 4.md",
-    "Lectura4",
-    "Lectura1/Lectura1.pdf",
-    "Lectura1/Lectura1.md",
-    "Lectura1/Lectura1 1.md"
+    "NotasDeClase/Semana5/18Marzo.md",
+    "NotasDeClase/Semana7/1Abril.md",
+    "Lecturas/Lectura4/Lectura4.md",
+    "NotasDeClase/Semana7",
+    "Lecturas/Lectura4/Lectura4.pdf",
+    "Lecturas/Lectura3/Lectura3.pdf",
+    "Lecturas/Lectura3/Lectura3.md",
+    "Apuntes/Apuntes#1/Apuntes1.md",
+    "Proyectos/Proyecto1/Notas Proyecto 1.md",
+    "Lecturas/Lectura5",
+    "Proyectos/Proyecto1",
+    "Apuntes/Apuntes#1/Apuntes1.pdf",
+    "Apuntes/public_2025-01-IC7602_Redes_-_Asignación_Apuntes.pdf"
   ]
 }
