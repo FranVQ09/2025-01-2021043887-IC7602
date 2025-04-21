@@ -68,6 +68,7 @@ Los hubs simplemente replican todas las señales recibidas hacia todos los puert
 - Aprende automáticamente qué dispositivos están en cada segmento mediante una tabla de direcciones MAC
 
 ### Switches
+![[Switch-07-SC.webp]]
 - Similar a un bridge
 - Permite conectar muchisimos segmentos
 - Permite realizar multiples configuraciones

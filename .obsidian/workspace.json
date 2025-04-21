@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "00352e907b44dc61",
+        "id": "d4f64249452f9239",
         "type": "tabs",
         "children": [
           {
-            "id": "c91e7f738d1e05fc",
+            "id": "68fcd29ae28ab4fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NotasDeClase/Semana7/1Abril.md",
+                "file": "Lecturas/Lectura5/Lectura 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1Abril"
+              "title": "Lectura 5"
             }
           }
         ]
@@ -168,11 +168,17 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "c91e7f738d1e05fc",
+  "active": "68fcd29ae28ab4fc",
   "lastOpenFiles": [
-    "NotasDeClase/Semana5/18Marzo.md",
-    "NotasDeClase/Semana7/1Abril.md",
+    "Lecturas/Lectura5/Lectura 5.pdf",
     "Lecturas/Lectura4/Lectura4.md",
+    "Lecturas/Lectura5/Lectura 5.md",
+    "Apuntes/Apuntes#2/apuntes2.md",
+    "Lecturas/Lectura5",
+    "Apuntes/Apuntes#2/apuntes2.pdf",
+    "Switch-07-SC.webp",
+    "NotasDeClase/Semana7/1Abril.md",
+    "NotasDeClase/Semana5/18Marzo.md",
     "NotasDeClase/Semana7",
     "Lecturas/Lectura4/Lectura4.pdf",
     "Lecturas/Lectura3/Lectura3.pdf",
