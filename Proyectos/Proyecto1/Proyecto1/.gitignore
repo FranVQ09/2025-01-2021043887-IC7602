@@ -1,0 +1,11 @@
+# Firebase credentials
+firebase/firebase-adminsdk.json
+
+# Entornos virtuales
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node modules
+dns_ui/node_modules/

@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dns-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dns-ui
+  template:
+    metadata:
+      labels:
+        app: dns-ui
+    spec:
+      containers:
+        - name: dns-ui
+          image: "{{ .Values.dnsUI.image }}"
+          ports:
+            - containerPort: {{ .Values.dnsUI.port }}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dns-ui
+spec:
+  selector:
+    app: dns-ui
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: {{ .Values.dnsUI.port }}

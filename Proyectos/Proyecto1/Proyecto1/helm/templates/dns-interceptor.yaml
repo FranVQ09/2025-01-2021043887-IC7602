@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dns-interceptor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: dns-interceptor
+  template:
+    metadata:
+      labels:
+        app: dns-interceptor
+    spec:
+      containers:
+        - name: dns-interceptor
+          image: "{{ .Values.dnsInterceptor.image }}"
+          ports:
+            - containerPort: {{ .Values.dnsInterceptor.port }}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dns-interceptor
+spec:
+  selector:
+    app: dns-interceptor
+  ports:
+    - protocol: UDP
+      port: 53
+      targetPort: {{ .Values.dnsInterceptor.port }}

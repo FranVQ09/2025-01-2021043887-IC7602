@@ -1,0 +1,14 @@
+dnsInterceptor:
+  image: dns_interceptor:latest
+  port: 53
+
+dnsAPI:
+  image: dns_api:latest
+  port: 8000
+
+healthChecker:
+  image: health_checker:latest
+
+dnsUI:
+  image: dns_ui:latest
+  port: 3000
