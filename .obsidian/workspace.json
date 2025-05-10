@@ -25,12 +25,14 @@
             "id": "8410f7b0199deaf9",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Apuntes/public_2025-01-IC7602_Redes_-_Asignación_Apuntes.pdf"
+                "file": "Apuntes/apuntes3/apuntes3.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "public_2025-01-IC7602_Redes_-_Asignación_Apuntes"
+              "icon": "lucide-file",
+              "title": "apuntes3"
             }
           }
         ],
@@ -183,6 +185,9 @@
   },
   "active": "8410f7b0199deaf9",
   "lastOpenFiles": [
+    "Apuntes/apuntes3/apuntes3.pdf",
+    "Apuntes/public_2025-01-IC7602_Redes_-_Asignación_Apuntes.pdf",
+    "Apuntes/apuntes3/apuntes3.md",
     "Lecturas/Lectura6/Lectura6.md",
     "Lecturas/Lectura6/Lectura6.pdf",
     "Lecturas/Lectura5/Lectura 5.md",
@@ -201,7 +206,6 @@
     "Lecturas/Lectura3/Lectura3.md",
     "Apuntes/Apuntes#1/Apuntes1.md",
     "Proyectos/Proyecto1/Notas Proyecto 1.md",
-    "Lecturas/Lectura5",
-    "Proyectos/Proyecto1"
+    "Lecturas/Lectura5"
   ]
 }
